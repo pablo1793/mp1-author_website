@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Allison", cursive;
+    font-size: 25px;
+    color: #eace09;
+    line-height: 1.5;
+}
+
+#showcase {
+    background-image: url("../img/landingpagepic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#showcase h1 {
+    font-size: 150px;
+    line-height: 1.2;
+}
+
+#showcase h1:hover {
+    background: #eace09;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#showcase p {
+    font-size: 35px;
+}
+
+#showcase p:hover {
+    background: #eace09;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#showcase .button {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: #fff 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#showcase .button:hover {
+    background: #eace09;
+    color: #fff;
+}
