@@ -11,7 +11,7 @@ body {
     line-height: 1.5;
 }
 
-#showcase {
+#backgroundimage {
     background-image: url("../img/landingpagepic.jpg");
     background-size: cover;
     background-position: center;
@@ -24,28 +24,25 @@ body {
     padding: 0 10px;
 }
 
-#showcase h1 {
+#backgroundimage h1 {
     font-size: 150px;
     line-height: 1.2;
 }
 
-#showcase h1:hover {
+#backgroundimage h1:hover {
     background: #eace09;
     color: #fff;
     border-radius: 20px;
 }
 
-#showcase p {
+#backgroundimage p {
     font-size: 35px;
-}
-
-#showcase p:hover {
     background: #eace09;
     color: #fff;
     border-radius: 20px;
 }
 
-#showcase .button {
+#backgroundimage .button {
     font-size: 20px;
     text-decoration: none;
     color: #fff;
@@ -55,7 +52,7 @@ body {
     margin: 10px 0;
 }
 
-#showcase .button:hover {
+#backgroundimage .button:hover {
     background: #eace09;
     color: #fff;
 }
