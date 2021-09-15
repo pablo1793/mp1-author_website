@@ -108,7 +108,9 @@ body {
     color: #eace09;
     border: solid;
     background-color: crimson;
-    margin: 10px auto;
+    margin: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Library Page */
