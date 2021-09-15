@@ -7,13 +7,18 @@
 
 body {
     margin: 0;
-    font-family: "Allison", cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
     color: #eace09;
     line-height: 1.5;
+    background-image: url("../img/landingpagepic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#backgroundimage {
+#landingpage {
     background-image: url("../img/landingpagepic.jpg");
     background-size: cover;
     background-position: center;
@@ -26,19 +31,22 @@ body {
     padding: 0 10px;
 }
 
-#backgroundimage h1 {
+#landingpageh1 {
     font-size: 150px;
     line-height: 1.2;
     color: #000;
+    text-align: center;
 }
 
-#backgroundimage p {
+#landingpagep {
     font-size: 35px;
     background: #eace09;
     color: #fff;
     border-radius: 20px;
+    text-align: center;
 }
 
+*/
 /* Home Page */
 
 /* News Page */
@@ -65,7 +73,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     word-spacing: 0.3em;
-    color: #000;
+    color: #eace09;
+    margin: 10px;
 }
 
 .progressbar {
@@ -85,7 +94,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     word-spacing: 0.5em;
-    color: #000;
+    color: #eace09;
 }
 
 /* News Page */
@@ -101,3 +110,17 @@ body {
     background-color: crimson;
     margin: 10px auto;
 }
+
+/* Library Page */
+
+/* About Page */
+
+#about-guy {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+    color: #eace09;
+    margin: 10px;
+}
+
+/* About Page */
