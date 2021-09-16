@@ -75,6 +75,8 @@ body {
     word-spacing: 0.3em;
     color: #eace09;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .progressbar {
@@ -95,13 +97,15 @@ body {
     text-transform: uppercase;
     word-spacing: 0.5em;
     color: #eace09;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* News Page */
 
 /* Library Page */
 
-#book-titles {
+.book-titles {
     text-transform: uppercase;
     text-align: center;
     word-spacing: 0.2em;
@@ -117,12 +121,14 @@ body {
 
 /* About Page */
 
-#about-guy {
+.about-guy {
     text-align: center;
     text-transform: uppercase;
     word-spacing: 0.5em;
     color: #eace09;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* About Page */
