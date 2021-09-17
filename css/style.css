@@ -1,7 +1,7 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
+}
 
 /* Home Page */
 
@@ -61,15 +61,6 @@ body {
 /* Home Page */
 
 /* News Page */
-
-/*  #background-image {
-    background-image: url("../img/background.min.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-} */
 
 .progress-container {
     background-color: #f4eacc;
