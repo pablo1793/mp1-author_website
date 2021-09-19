@@ -58,6 +58,13 @@ body {
     margin-right: auto;
 }
 
+#footerDesign {
+    font-size: medium;
+    background-color: #f4eacc;
+    margin-bottom: -16px;
+    margin-top: 3em;
+}
+
 /* Home Page */
 
 /* News Page */
