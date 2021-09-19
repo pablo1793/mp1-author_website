@@ -27,17 +27,49 @@
                 </ul>
 
                 <div class="d-none d-md-block">
-                    <a href="*">Sign up to the newsletter</a>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signupModal">
+                        Sign up to the newsletter
+                    </button>
                 </div>
         </nav>
     </header>
     <div class="container-fluid block">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                 <h1 id="block__elem1">Guy Scriblin</h1>
             </div>
-            <div class="col-12">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                 <p id="block__elem2"><strong>Explore the works of the world-famous author of the Dawnlight Chronicle</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up to the newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

@@ -27,7 +27,9 @@
                 </ul>
 
                 <div class="d-none d-md-block">
-                    <a href="*">Sign up to the newsletter</a>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signupModal">
+                        Sign up to the newsletter
+                    </button>
                 </div>
         </nav>
     </header>
@@ -37,10 +39,10 @@
     <div class="row">
         <div class="container latest-release">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <img src="./img/dawnlight-1.min.jpg" class="img-fluid" alt="Dawnlight Chronicle Book 1 cover">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequatur voluptas deserunt, delectus quasi cum rerum perspiciatis nisi, voluptate, quisquam odit ipsa. Voluptatem, perferendis veniam commodi ducimus cupiditate error quae id eveniet. Facilis quas possimus, delectus quae optio natus molestiae eum nulla accusamus blanditiis, temporibus laborum sed a quisquam, nobis numquam labore. Esse nihil, fugiat, saepe dolore nemo id iure cupiditate magnam, temporibus distinctio maiores enim nulla doloremque sed minus similique corrupti a velit. Sequi tenetur cumque officiis accusantium. Placeat suscipit nesciunt iusto aut non libero ab laudantium ipsum dicta. Ullam sint eaque dignissimos neque quod pariatur modi eos labore!</p>
                 </div>
             </div>
@@ -52,10 +54,10 @@
     <div class="row">
         <div class="container latest-release">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <img src="./img/dawnlight-2.min.jpg" class="img-fluid" alt="Dawnlight Chronicle Book 2 cover">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequatur voluptas deserunt, delectus quasi cum rerum perspiciatis nisi, voluptate, quisquam odit ipsa. Voluptatem, perferendis veniam commodi ducimus cupiditate error quae id eveniet. Facilis quas possimus, delectus quae optio natus molestiae eum nulla accusamus blanditiis, temporibus laborum sed a quisquam, nobis numquam labore. Esse nihil, fugiat, saepe dolore nemo id iure cupiditate magnam, temporibus distinctio maiores enim nulla doloremque sed minus similique corrupti a velit. Sequi tenetur cumque officiis accusantium. Placeat suscipit nesciunt iusto aut non libero ab laudantium ipsum dicta. Ullam sint eaque dignissimos neque quod pariatur modi eos labore!</p>
                 </div>
             </div>
@@ -67,11 +69,41 @@
     <div class="row">
         <div class="container latest-release">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <img src="./img/dawnlight-3.min.jpg" class="img-fluid" alt="Dawnlight Chronicle Book 3 cover">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequatur voluptas deserunt, delectus quasi cum rerum perspiciatis nisi, voluptate, quisquam odit ipsa. Voluptatem, perferendis veniam commodi ducimus cupiditate error quae id eveniet. Facilis quas possimus, delectus quae optio natus molestiae eum nulla accusamus blanditiis, temporibus laborum sed a quisquam, nobis numquam labore. Esse nihil, fugiat, saepe dolore nemo id iure cupiditate magnam, temporibus distinctio maiores enim nulla doloremque sed minus similique corrupti a velit. Sequi tenetur cumque officiis accusantium. Placeat suscipit nesciunt iusto aut non libero ab laudantium ipsum dicta. Ullam sint eaque dignissimos neque quod pariatur modi eos labore!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up to the newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>

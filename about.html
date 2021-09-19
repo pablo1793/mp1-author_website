@@ -27,7 +27,9 @@
                 </ul>
 
                 <div class="d-none d-md-block">
-                    <a href="*">Sign up to the newsletter</a>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signupModal">
+                        Sign up to the newsletter
+                    </button>
                 </div>
         </nav>
     </header>
@@ -37,11 +39,41 @@
     <div class="row">
         <div class="container latest-release">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <img src="./img/author-portrait.min.jpg" class="img-fluid" alt="Portrait of the author">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex cupiditate ea nam? Vitae eligendi nam quibusdam consequuntur voluptas? Aliquid error blanditiis possimus consectetur voluptates consequatur, natus consequuntur rem expedita, voluptas itaque atque omnis. Recusandae ex, illum aut doloremque eveniet ab est architecto atque sed, tempora illo voluptatibus magni quasi laboriosam pariatur perferendis, laborum alias quisquam adipisci maiores nemo aspernatur consequatur accusantium dicta! Repellat corrupti iste aliquam sapiente ad natus debitis dolorem reprehenderit eligendi. Accusamus exercitationem nam obcaecati eum ex laborum. Doloremque veniam atque temporibus, quibusdam officia odio et tenetur nulla laboriosam voluptas, dolorem quis quam sunt consequatur similique illum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up to the newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
