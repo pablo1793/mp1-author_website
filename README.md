@@ -130,4 +130,5 @@ Using the W3C Markup Validator:
 - <b>News page</b> first check reveals same navbar error and a misplaced paragraph closing tag. Fixed navbar issue on all remaining HTML files, and moved closing paragraph tag. Upon 
 second validation the paragraph error persists. Next, I removed the paragraph tags completely so the text simply sits within its parent div. Upon third validation, <i>no errors 
 or warnings to show</i>.
-- Before validating <b>Library page</b> I removed the paragraph tags from the rest of texts throughout the website.
+- Before validating <b>Library page</b> I removed the paragraph tags from the rest of texts throughout the website. Upon first validation of the Library page, there are <i>no errors or warnings to show</i>.
+- Upon first validation of the <b>About page</b>, there are <i>no errors or warnings to show</i>.
