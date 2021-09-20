@@ -120,7 +120,11 @@ If you want to clone and deploy the project yourself:
 7. Type "<i>git clone</i>", and then paste the URL you copied earlier
 8. Press <b>Enter</b> to create your local clone
 
-# Testing
+# Testing + Bugfixes
 
 ## HTML Testing
 
+Using the W3C Markup Validator:
+
+- Landing page first check reveals an error in the navbar code. A div closing tag is missing. After fixing and upon second validation, <i>no errors or warnings to show</i>.
+- News page first check reveals same navbar error and a misplaced paragraph closing tag. Fixed navbar issue on all remaining HTML files, and moved closing paragraph tag.
