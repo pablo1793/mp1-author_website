@@ -84,7 +84,8 @@ Finally, at the bottom of all the site's pages there is a simple footer which bo
 
 # Screenshots
 
-The following are a series of screenshots of the website's final design:
+The following are a series of screenshots of the website's final design. Although the background image appears messy in the screen captures, this is due to the extension used to
+take the screenshots. When using the website, the background image is set to fixed and no-repeat.
 
 ## Landing Page
 
@@ -105,3 +106,19 @@ The following are a series of screenshots of the website's final design:
 ## About Page
 
 <img src="./img/aboutpage-screencap.min.jpg" alt="About the author page screen capture">
+
+# Installation Instructions
+
+If you want to clone and deploy the project yourself:
+
+1. Go to [my GitHub profile](https://github.com/pablo1793)
+2. Click "Repositories" and choose the repo named "<b>mp1-author_website</b>"
+3. Click the dropdown labelled "<b>Code</b>"
+4. To clone the repository using HTTPS, under "Clone with HTTPS", copy the URL link
+5. Open terminal
+6. Change the current working directory to the location where you want the cloned directory
+7. Type "<i>git clone</i>", and then paste the URL you copied earlier
+8. Press <b>Enter</b> to create your local clone
+
+# Testing
+
