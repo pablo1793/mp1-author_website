@@ -61,6 +61,12 @@ body {
     text-align: left;
 }
 
+.books {
+    width: 66vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #footerDesign {
     font-size: medium;
     background-color: #f4eacc;
@@ -73,6 +79,7 @@ body {
     color: #000;
     border: solid #e1b284;
     justify-items: center;
+    width: 55vw;
     padding: 10px;
     margin: 5px;
     margin-left: auto;
