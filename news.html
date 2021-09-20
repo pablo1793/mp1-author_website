@@ -37,13 +37,13 @@
         </nav>
     </header>
 
-    <section>
-        <div class="row">
+    <main>
+        <section class="row">
             <div class="col-12 my-3">
-                <h2 id="progress-bars">Progress Bars</h2>
+                <h2 id="progress-bars">Forthcoming Projects</h2>
             </div>
-        </div>
-        <div class="row">
+        </section>
+        <section class="row">
             <div class="col-12">
                 <div class="container progress-container">
                     <h3>Coming Dusk Novella</h3>
@@ -60,72 +60,80 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <div class="row">
-        <div class="col-12 my-5">
-            <h2 id="latest-news">Latest Release</h2>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <div class="container latest-release">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                        <img src="./img/dawnlight-3.min.jpg" class="img-fluid" alt="Dawnlight Chronicle Book 3 cover">
+        <section class="row">
+            <div class="col-12 my-3">
+                <h2 id="latest-news">Latest Release</h2>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-12">
+                <div class="container latest-release">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <img src="./img/dawnlight-3.min.jpg" class="img-fluid" alt="Dawnlight Chronicle Book 3 cover">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <p>"<strong>Fear will spread through humanity,<br>
+                                    doom beating an otherwordly drum,<br>
+                                    despite hope sprouting from old and young,<br>
+                                    inexorable will prove domination's calamity.</strong>"<br>
+                                - excerpt from the Prophecies of Calamity.
+                                <hr>
+                            </p>
+
+                            <p class="book-synopsis">At the start of the third novel we follow <em>Ceann</em> returning to <em>Sciath</em> alongside the General <em>Laidir</em> and a battallion of the Queen's Elites, ready to
+                                escort <em>Triu</em> and the survivors back to the safety of <em>Rikkios</em>.<br>
+                                <em>Tubaiste</em> has infiltrated the settlement of <em>New Sciath</em> under the guise of a priest warning of forthcoming doom much worse than what humanity has experienced
+                                thus far. In reality he is poisoning the minds of the weak-willed and discontent, gaining an ever larger following.<br>
+                                Meanwhile, <em>Ada</em> returns from her journey in the previous novel with a warning of her own: the previous natural disasters are only the beginning of a more onerous
+                                course of events.<br>
+                                Together again, the three friends will work together to get to the bottom of the increasing conflict among the surviving islanders and face their hitherto unknown foes.<br>
+                                Will our heroes prevail in saving the lives of the innocent? Or will <em>Tubaiste</em> and his mysterious masters manage to spread dread and destruction throughout <em>Oyldorch</em>?
+                                <hr>
+                            </p>
+
+                            <p>
+                                "<strong>The choice to fight arrogance with humility, domination with resistance, and fear with hope might save us all</strong>"
+                                - Ciallmar to Triu.</p>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                        "<b>Fear will spread through humanity,<br>doom beating an otherwordly drum,<br>despite hope sprouting from old and young,<br>inexorable will prove domination's
-                            calamity.</b>"<br>
-                        - excerpt from the Prophecies of Calamity.
+                </div>
+            </div>
+        </section>
 
-                        <hr>At the start of the third novel we follow <i>Ceann</i> returning to <i>Sciath</i> alongside the General <i>Laidir</i> and a battallion of the Queen's Elites, ready to
-                        escort <i>Triu</i> and the survivors back to the safety of <i>Rikkios</i>.<br><i>Tubaiste</i> has infiltrated the settlement of <i>New Sciath</i> under the guise of a
-                        priest warning of forthcoming doom much worse than what humanity has experienced thus far. In reality he is poisoning the minds of the weak-willed and discontent, gaining
-                        an ever larger following.<br>Meanwhile, <i>Ada</i> returns from her journey in the previous novel with a warning of her own: the previous natural disasters are only
-                        the beginning of a more onerous course of events.<br>Together again, the three friends will work together to get to the bottom of the increasing conflict among the surviving
-                        islanders and face their hitherto unknown foes.<br>Will our heroes prevail in saving the lives of the innocent? Or will <i>Tubaiste</i> and his mysterious masters manage to spread
-                        dread and destruction throughout <i>Oyldorch</i>?
-
-                        <hr>"<b>The choice to fight arrogance with humility, domination with resistance, and fear with hope might save us all</b>"
-                        - Ciallmar to Triu.
+        <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign up to the newsletter!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Sign up to the newsletter!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
     <footer id="footerDesign" class="text-center text-lg-start text-muted">
         <p>© Copyright 2021: Guy Scriblin</p>
