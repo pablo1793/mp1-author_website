@@ -132,3 +132,31 @@ second validation the paragraph error persists. Next, I removed the paragraph ta
 or warnings to show</i>.
 - Before validating <b>Library page</b> I removed the paragraph tags from the rest of texts throughout the website. Upon first validation of the Library page, there are <i>no errors or warnings to show</i>.
 - Upon first validation of the <b>About page</b>, there are <i>no errors or warnings to show</i>.
+
+## CSS Testing
+
+Using the W3C CSS Validator:
+
+- Upon first validation, <i>multiple parse errors</i> are announced. I think perhaps the comments I was using in my CSS file might be causing this, so I remove all comments.
+- Upon second validation, the same problems persist; <i>many parse errors and warnings</i>. However, they all seem to be related to the Bootstrap URI, as I can't see any errors in the CSS that I've written. 
+- After some time researching on Google and the Bootstrap documentation, I haven't been able to figure out exactly what the problem is. But it seems solely focused on the CDN URI. So there aren't any changes needed in my CSS, to the best of my knowledge.
+
+## web.dev Testing
+
+### First Audit
+
+#### Landing Page
+
+<img src="./img/landingpage-webdev-audit1.min.jpg" alt="First Landing Page web.dev Test">
+
+#### News Page
+
+<img src="./img/newspage-webdev-audit1.min.jpg" alt="First News Page web.dev Test">
+
+#### Library Page
+
+<img src="./img/librarypage-webdev-audit1.min.jpg" alt="First Library Page web.dev Test">
+
+#### About Page
+
+<img src="./img/aboutpage-webdev-audit1.min.jpg" alt="First About Page web.dev Test">
