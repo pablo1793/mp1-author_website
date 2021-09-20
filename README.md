@@ -122,3 +122,5 @@ If you want to clone and deploy the project yourself:
 
 # Testing
 
+## HTML Testing
+
