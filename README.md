@@ -6,7 +6,7 @@ This is the README.md file for my first webpage, created for my User Centric Fro
 
 The author and owner of this project is Pablo Page, who is happy with the end result despite the odd flaw.
 
-<img src="./img/landing-page-screencap.min.jpg" alt="Landing page screen capture">
+<img src="./img/landingpage-screencap.min.jpg" alt="Landing page screen capture">
 
 # Technologies Used
 
@@ -33,7 +33,10 @@ The author and owner of this project is Pablo Page, who is happy with the end re
       - Gimp was used to create the images of the fictional book covers used in the website.
 8. Pexels
       - Pexels was used to source the author portrait for the About page and the background image that features throughout.
-9. Balsamiq:
+9. TinyPNG
+      - TinyPNG.com was used to minify all images used on the site to reduce the website's loading time and minimise the user's data usage if not relying
+      on a wifi connection.       
+10. Balsamiq:
       - Balsamiq was used before beginning to code to create wireframes which served as reference for the design of the website. Although these wireframes 
       do not reflect the final site design exactly, they served as a useful foundation to build on. You can view images of these initial wireframes below.
 
@@ -79,3 +82,26 @@ News page containing progress bars. The code for which was taken directly from t
 
 Finally, at the bottom of all the site's pages there is a simple footer which bookends the design of the website along with the fixed navbar at the top.
 
+# Screenshots
+
+The following are a series of screenshots of the website's final design:
+
+## Landing Page
+
+<img src="./img/landingpage-screencap.min.jpg" alt="Landing page screen capture">
+
+## Modal
+
+<img src="./img/modal-screencap.min.jpg" alt="Modal feature screen capture">
+
+## News Page
+
+<img src="./img/newspage-screencap.min.jpg" alt="News page screen capture">
+
+## Online Library Page
+
+<img src="./img/librarypage-screencap.min.jpg" alt="Online Library page screen capture">
+
+## About Page
+
+<img src="./img/aboutpage-screencap.min.jpg" alt="About the author page screen capture">
