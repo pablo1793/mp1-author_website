@@ -124,6 +124,24 @@ News page containing progress bars. The code for which was taken directly from t
 
 Finally, at the bottom of all the site's pages there is a simple footer which bookends the design of the website along with the fixed navbar at the top.
 
+### Existing features
+
+* Header Logo. Exists on every page and allows the users to easily recognise the author's brand. When clicked it returns the user to the landing page as they would expect.
+* Header Navigation Bar. Exists on every page and allows users to easily navigate the site's pages to quickly get where they want to go.
+* Footer Copyright information. Exists on every page and allows the author to protect his copyright.
+* Newsletter Signup Button. Exists inside the navigation bar on every page and allows users to sign up to the author's monthly newsletter.
+* [News Page](news.html). Allows users to get updated on the author's progress with his ongoing projects and to read about his most recent published novel.
+* [Online Library Page](library.html). Allows users to view the book covers and read about all of the authors published novels.
+* [About Page](about.html). Allows user to view a portrait of the author as well as read a brief biography detailing his life so far.
+
+### Features to implement in future
+
+* Quotes on landing page praising the author's previously published works.
+* Shop Page. Will allow users to buy books directly from the author.
+* Characters Page. Will allow users to read more about their favourite characters.
+* Author Blog. Will allows users to browse the author's thoughts on a deeper level.
+* Option to choose the language of the website. Will allow non-native English speaking readers to also benefit from the information provided by the site.
+
 ## Installation Instructions
 
 To clone this project into Gitpod you will need:
