@@ -238,6 +238,81 @@ To my elation, this general "tidying up" also solved the spacing issue.
 7. As a potential customer, I want to buy the author's first book which was recommended to me. But I am disappointed to find the site doesn't yet have a shop.
       1. Indeed this user is correct. There is not yet functionality supporting book purchasing directly from the website. Although this feature will be implemented soon!
 
+### Manual testing of all element and functionality on every page
+
+#### Home Page
+
+1. Navigation Bar:
+      1. Go to the homepage from a desktop.
+      2. Change the screen size from desktop to tablet to make sure the navbar is responsive.
+      3. When confirming navigation bar responsiveness, check there are no size changes to the menu items that might alter the navbar's aesthetic.
+      4. Click on the bavbar logo to verify it links to the landing page.
+      5. Click on each of the navigation bar items to ensure they link to the correct page.
+      6. Click on the "Sign up to the newsletter" button to ensure modal and form are responsive to the screen size.
+      7. Change the screen size from tablet to small to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu in the correct position.
+      8. Click the burger icon and verify that the menu drops down and the menu text is centered.
+      9. Repeat verification of responsiveness and functionality on my mobile phone.
+
+2. Title and subtitle:
+      1. Go to Home page on a desktop and verify positioning and styling of central title and subtitle.
+      2. Change screen size from desktop to tablet and repeat verification. 
+      3. Repeat verification on my mobile phone.
+
+3. Footer:
+      1. Go to Home page on desktop and verify footer's contents are centered and the footer itself is fixed to the bottom of the page.
+      2. Reduce and increase the window's size to ensure footer's responsiveness at different sizes.
+      3. Check responsiveness of footer by changing screen sizes from desktop to tablet, then from tablet to mobile. Also check on mobile phone.
+
+#### News Page
+
+1. Navigation Bar:
+      1. Repeat verification steps taken for the navigation bar on the Home page.
+      2. Verify the navbar is identitcal on all pages.
+
+2. Progress Bars:
+      1. Verify the "Forthcoming Projects" title and progress bars feature resize in accordance with their media query parameter when screen size is changed to tablet.
+      2. Repeat verification for small screen size
+
+3. Latest novel release:
+      1. Confirm that book cover image and synopsis text change positioning when screen size is changed from desktop to tablet. From each taking up half the space of their container side-by-side at desktop size, to the book cover moving above the synopsis at tablet size.
+      2. Verify the same happens when viewed on a mobile.
+      3. Make sure that the text at the top and bottom of the synopsis is centered, while the middle text is pushed to the left.
+      4. Verify this is maintained at all screen sizes.
+      5. Repeat verification on my mobile phone.
+
+4. Footer:
+      1. Repeat verification steps taken for the footer on the Home page.
+      2. Verify the footer is identitcal on all pages.
+
+#### Online Library Page
+
+1. Navigation bar: 
+      1. Navigation bar code is identical on all HTML pages. Testing already completed.
+
+2. Library items (book covers and synopses):
+      1. Repeat the verification steps taken for the "Latest novel release" section on News page for all three novel sections on the Online Library page.
+      
+3. Footer:
+      1. Footer code is identical on all HTML pages. Testing already completed.
+
+#### About Page
+
+1. Navigation bar: 
+      1. Navigation bar code is identical on all HTML pages. Testing already completed.
+
+2. About the author section:
+      1. Verify the author portrait sits on top of the biography text on desktop, table, a mobile screen sizes.
+      2. Check that the text is centered on all screen sizes.
+
+3. Footer:
+      1. Footer code is identical on all HTML pages. Testing already completed.
+
+#### Sign Up Modal
+
+      1. Verify the modal works correctly on desktop and tablet screen sizes. And that it disappears on mobile screen sizes.
+      2. Check that the text is centered. And that placeholder text disappears once something is typed.
+      3. Repeat verification on my mobile phone.
+
 ## Screenshots
 
 The following are a series of screenshots of the website's final design. Although the background image appears choppy in the screen captures, this is due to the extension used to
@@ -263,3 +338,26 @@ take the screenshots. When using the website, the background image is set to fix
 
 <img src="./assets/images/aboutpage-screencap.min.jpg" alt="About the author page screen capture">
 
+## Credits
+
+### Content
+
+* Book and series titles, all original texts - including book synopses and author bio - are all fictional. Written by me, Pablo Page.
+
+### Media
+
+* Author portrait, background image, and the book cover background images were all sourced from Pexels.
+* Book cover background images were edited by me using Gimp to transform them into fictional book covers.
+
+### Documentation
+
+* I read [AJ Greaves's](https://github.com/AJGreaves) README.md file for her [Portrait Artist](https://github.com/AJGreaves/portrait-artist) project at the suggestion of my Mentor, so I could see a good example of a well made documentation. Her clear and detailed README proved very helpful and instructional. Thank you AJ!
+
+### Acknowledgements
+
+* I was inspired to create a website for a fictional author partly because I'm a fan of the fantasy genre. But in larger part because of my great interest in the works of Brandon Sanderson, whose [website](https://www.brandonsanderson.com/) I have frequently visited.
+* I would like to thank my mentor Victor, who was very helpful and encouraging throughout the process of doing this project. I'm sure I couldn't have managed to do it without his guidance. 
+
+#### Disclaimer
+
+The content of this Website is purely fictional and for educational purposes only.
