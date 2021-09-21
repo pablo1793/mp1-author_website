@@ -309,6 +309,7 @@ To my elation, this general "tidying up" also solved the spacing issue.
 
 #### Sign Up Modal
 
+1. "Sign up to the newsletter" modal and form:
       1. Verify the modal works correctly on desktop and tablet screen sizes. And that it disappears on mobile screen sizes.
       2. Check that the text is centered. And that placeholder text disappears once something is typed.
       3. Repeat verification on my mobile phone.
