@@ -10,7 +10,7 @@ body {
     font-size: 100%;
     text-align: center;
     line-height: 2;
-    background-image: url("../img/background.min.jpg");
+    background-image: url("../images/background.min.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,8 +30,8 @@ body {
 .block {
     height: 100vh;
     align-items: center;
-    padding-top: 14em;
-    padding-bottom: 14em;
+    padding-top: 18em;
+    padding-bottom: 18em;
 }
 
 #block__elem1 {
